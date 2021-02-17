@@ -1,0 +1,198 @@
+﻿body {
+    background-color: #d5d5d5;
+    font-family: "Trebuchet MS", Arial, 'Comic Sans MS';
+}
+/*class da . - ID de # */
+* {  /tüm boşlukları sildim/
+    margin: 0; 
+    padding : 0;
+    border: 0 ;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+    a:hover{ /mouse üzerine geldiğinde/
+        color:#999;
+    }
+
+#wrapper{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+header{
+    float: left;
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+}
+
+    header .logo{
+        float: left;
+        width: 89px;
+        height: 45px;
+        border-right: 1px solid #ff0000;
+        text-align: center;
+        line-height: 45px;
+        color: #990000;
+    }
+
+    header nav{
+        float: left;
+        width: 609px;
+        height: 45px;
+        border-right: 1px solid #ff0000;
+        line-height: 45px;
+    }
+
+        header nav ul{
+            list-style :none;
+        }
+        header nav ul li{
+            float: left;
+            margin: 0 10px;
+            color: #555;
+        }
+
+            header nav ul li.kitaplar-wrap{
+                position: relative;
+            }
+                header nav ul li.kitaplar-wrap .kitaplar {
+                    display: none;
+                    position: absolute;
+                    width: auto;
+                    height: auto;
+                    background-color: #fff;
+                }
+
+
+    header .arama-wrap {
+        float: left;
+        width: 260px;
+        height: 45px;
+    }
+
+        header .arama-wrap .btnArama {
+            float: left;
+            width: 49px;
+            height: 45px;
+            border-right: 1px solid #ff0000;
+        }
+
+        header .arama-wrap .txtArama{
+            float: left;
+            width: 190px;
+            padding: 10px;
+            height: 25px;
+        }
+
+
+.banner {
+    float: left;
+    margin-top: 45px;
+    width: 960px;
+    height: 360px;
+    background-color: #fff;
+    line-height: 360px; /dikeyde ortalama/
+    text-align: center; /yatayda ortalama/
+    font-size: 56px;
+    color: #fff;
+    background-image: url('Resimler/Tasarım/library.jpg');
+    background-size: cover;
+}
+
+.sol-taraf {
+    float: left;
+    width: 285px;
+    height: auto;
+    margin-top: 45px;
+    background-color: #fff;
+}
+
+    .sol-taraf .kategoriler{
+        float: left;
+        width: 285px;
+        height: auto;
+    }
+
+        .sol-taraf .kategoriler .ust {
+            float: left;
+            width: 270px;
+            height: 44px;
+            line-height: 44px;
+            padding-left: 15px;
+            border-bottom: 1px solid  #ccc;
+            color: #555;
+            background-color: #fff;
+        }
+
+        .sol-taraf .kategoriler .alt {
+            float: left;
+            width: 100%;
+            height: 220px;
+            border-bottom: 1px solid #ccc;
+            background-color: #fff;
+        }
+
+    .sol-taraf .duyurular{
+        float:left;
+        width: 285px;
+        height:auto;
+        margin-top: 45px;
+    }
+
+        .sol-taraf .duyurular .ust{
+            float: left;
+            width: 270px;
+            height: 44px;
+            line-height: 44px;
+            padding-left: 15px;
+            border-bottom: 1px solid #ccc;
+            color: #555;
+            background-color: #fff;
+        }
+
+        .sol-taraf .duyurular .alt {
+            float: left;
+            width:250px;
+            padding: 17.5px;
+            height:auto;
+            border-bottom: 1px solid #ccc;
+            color: #555;
+            background-color: #fff;
+        }
+
+            .sol-taraf .duyurular .alt .duyuru-wrap{
+                float:left;
+                width: 250px;
+                height: auto;
+                margin-top: 20px;
+                background-color: #fff;
+            }
+
+                .sol-taraf .duyurular .alt .duyuru-wrap:hover{
+                    background-color: #d5d5d5;
+                }
+
+
+.icerik{
+    float:right;
+    width: 625px;
+    height: 500px;
+    margin-top:45px;
+    background-color: #fff;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 45px;
+    text-align: center;
+    line-height: 60px;
+    color: #555;
+    background-color: #fff;
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>Resimler/Tasarim/youtube.png</ImageUrl>
+		<NavigateUrl>http://www.youtube.com</NavigateUrl>
+		<AlternateText>Youtube</AlternateText>
+		<Keyword>Video</Keyword>
+		<Impressions>5</Impressions>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>Resimler/Tasarim/trendyol.jpg</ImageUrl>
+		<NavigateUrl>http://www.trendyol.com</NavigateUrl>
+		<AlternateText>Trendyol</AlternateText>
+		<Keyword>Alışveriş</Keyword>
+		<Impressions>5</Impressions>
+	</Ad>
+
+</Advertisements>

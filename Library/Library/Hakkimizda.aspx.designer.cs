@@ -9,8 +9,6 @@
 
 namespace Library
 {
-
-
     public partial class Hakkimizda
     {
     }
